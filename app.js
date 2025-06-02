@@ -1,5 +1,5 @@
 let listaDeNumerosSorteados = [];
-let numeroMaximo = 100;
+let numeroMaximo = 50;
 let numeroSecreto = numAleatorio();
 let tentativas = 1;
 
@@ -11,7 +11,7 @@ function exibirTexto(tag, texto){
 
 function exibirMensagemInicial(){
     exibirTexto('h1', 'Jogo do Número Secreto');
-    exibirTexto('p', 'Insira um número entre 1 e 100:');
+    exibirTexto('p', 'Insira um número entre 1 e 50:');
 }
 
 exibirMensagemInicial();
